@@ -49,13 +49,13 @@
         }
 
         footer {
-            background: #000438;
-            height: 82px;
+            background: #cd7d1c;
+            height: 100px;
+            
         }
 
         .footer-details {
-            text-align: center;
-            padding: 20px; 
+            text-align: center; 
         }
 
         .footer-logo {
@@ -70,7 +70,18 @@
             font-size: 10px;
             font-weight: 300;
          }
+.link{
+    text-decoration: none;
+    transition: transform 0.3s ease;
+    
+}
+.link img {
+    transition: transform 0.3s ease; /* Adjust duration and easing as needed */
+}
 
+.link:hover img {
+    transform: scale(1.5);
+}
         .footer-social-icons {
             margin-top: 10px; 
         }
@@ -86,16 +97,12 @@
 </head>
 <body>
 <header>
-    <svg
-            class="header-design"
-            width="125"
-            height="110"
-            viewBox="0 0 125 110"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-    >
-        <!--  SVG  goes here -->
-    </svg>
+    <center>
+
+        <img src="https://res.cloudinary.com/dnuyxnuky/image/upload/v1705586392/Email_header_8b42bed7aa.png "  
+        height="110" class="header-image"/>
+    </center>
+
     <!--  header content goes here -->
 </header>
 
@@ -134,16 +141,17 @@
 
 <footer>
     <section class="footer-details">
+        <br/>
         <h4 class="footer-logo">Techsynergy.io</h4>
         <div class="footer-social-icons">
-            <a href="#">
-                FB
+            <a class="link" href="https://www.linkedin.com/company/techsynk" target="_blank">
+                <img src="https://res.cloudinary.com/dnuyxnuky/image/upload/v1705636183/lk_59f06c2789.png" alt="LinkedIn">
             </a>
-            <a href="#">
-                LK
+            <a href="https://twitter.com/TechSynergyhub" target="_blank" class="link">
+                <img src="https://res.cloudinary.com/dnuyxnuky/image/upload/v1705636433/x_ca82fcb416.png" alt="twitter -X">
             </a>
-            <a href="#">
-                XX
+            <a href="https://www.facebook.com/profile.php?id=100095441772026" target="_blank" class="link">
+                <img src="https://res.cloudinary.com/dnuyxnuky/image/upload/v1705636183/fb_5123f3956e.png" alt="faceBook">
             </a>
         </div>
         <h5 class="footer-copyright">
